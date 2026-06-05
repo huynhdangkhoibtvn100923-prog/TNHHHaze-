@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAZE - Nến Thơm Cao Cấp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">HAZE</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>HAZE SCENTED CANDLE</h1>
+            <p>Thắp sáng không gian - Đánh thức cảm xúc</p>
+            <a href="#products" class="btn">Khám phá ngay</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <h2>Về HAZE</h2>
+        <p>
+            HAZE là thương hiệu nến thơm thủ công được tạo nên từ sáp đậu nành tự nhiên
+            kết hợp cùng tinh dầu cao cấp. Chúng tôi mang đến trải nghiệm thư giãn,
+            ấm áp và đầy cảm hứng cho mọi không gian sống.
+        </p>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <h2>Sản phẩm nổi bật</h2>
+
+        <div class="product-grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500" alt="Nến Hoa Lài">
+                <h3>Jasmine Dream</h3>
+                <p>Hương hoa lài dịu nhẹ giúp thư giãn tinh thần.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1608181831718-ef4e8f3b67d8?w=500" alt="Nến Vanilla">
+                <h3>Vanilla Bliss</h3>
+                <p>Hương vanilla ngọt ngào tạo cảm giác ấm áp.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1602872029708-84d970d3385d?w=500" alt="Nến Gỗ">
+                <h3>Wood Serenity</h3>
+                <p>Hương gỗ trầm thanh lịch và sang trọng.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <h2>Liên hệ</h2>
+        <p>Email: info@haze.vn</p>
+        <p>Hotline: 0123 456 789</p>
+        <p>Instagram: @hazecandle</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 HAZE Candle. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
